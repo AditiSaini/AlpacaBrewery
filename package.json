@@ -1,14 +1,44 @@
 {
-  "name": "frontend",
+  "name": "AlpacaBrewery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "infinite-react-carousel": "^1.2.5",
+    "jquery": "^3.4.1",
+    "mdbreact": "^4.24.0",
+    "parallex": "^0.2.0",
     "react": "^16.12.0",
+    "react-animated-css": "^1.2.1",
+    "react-animated-css-onscroll": "^1.2.1",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-hover-image": "^1.0.1",
+    "react-image-hover": "^1.0.3",
+    "react-image-magnify": "^2.7.4",
+    "react-image-zoom": "^1.3.1",
+    "react-parallax": "^3.0.2",
+    "react-pose": "^4.0.10",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-slick": "^0.25.2",
+    "react-spring": "^8.0.27",
+    "reactstrap": "^8.2.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.1",
+    "typescript": "^3.7.4",
+    "velocity-react": "^1.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +60,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-image-resizer": "^1.3.0"
   }
 }

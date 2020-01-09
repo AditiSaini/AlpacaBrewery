@@ -1,0 +1,19 @@
+.scrollable {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100rem;
+  overflow: scroll;
+}
+
+.header-background {
+  background: url("../assets/back-5.jpg");
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  position: relative;
+  background-color: white;
+}
