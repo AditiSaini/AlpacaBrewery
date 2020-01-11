@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {MDBContainer, MDBCard, MDBCol, MDBRow, MDBBtn, MDBIcon, MDBCardImage, MDBBtnGroup} from "mdbreact";
+import {MDBContainer, MDBCard, MDBCol, MDBRow, MDBBtn, MDBCardImage, MDBBtnGroup} from "mdbreact";
 import Features from '../Components/Features';
 import Collection from '../Components/Collection';
 import styled from "styled-components";

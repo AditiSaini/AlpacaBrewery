@@ -20,16 +20,16 @@ const FeaturesPage = () => {
                   className="deep-purple-text"
                 />
               </MDBCol>
-              <MDBCol size="10" style={{marginBottom: '20%', marginTop: '10%'}}>
-                <h3 className="font-weight-bold mb-3">Enhances concentration</h3>
+              <MDBCol size="10" style={{marginBottom: '15%', marginTop: '10%'}}>
+                <h2 className="font-weight-bold mb-3">Enhances concentration</h2>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
               <MDBCol size="2">
                 <MDBIcon icon="flask" size="2x" className="deep-purple-text" />
               </MDBCol>
-              <MDBCol size="10" style={{marginBottom: '20%'}}>
-                <h3 className="font-weight-bold mb-3">Easy to make</h3>
+              <MDBCol size="10" style={{marginBottom: '15%'}}>
+                <h2 className="font-weight-bold mb-3">Easy to make</h2>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
@@ -37,7 +37,7 @@ const FeaturesPage = () => {
                 <MDBIcon icon="thumbs-up" size="2x" className="deep-purple-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h3 className="font-weight-bold mb-3">Lower in acidity than coffee</h3>
+                <h2 className="font-weight-bold mb-3">Lower in acidity than coffee</h2>
               </MDBCol>
             </MDBRow>
           </MDBCol>
@@ -53,16 +53,16 @@ const FeaturesPage = () => {
               <MDBCol size="2" style={{marginTop: '10%'}}>
                 <MDBIcon icon="heart" size="2x" className="deep-purple-text" />
               </MDBCol>
-              <MDBCol size="10" style={{marginBottom: '20%', marginTop: '10%'}}>
-                <h3 className="font-weight-bold mb-3">Sweeter and smoother</h3>
+              <MDBCol size="10" style={{marginBottom: '15%', marginTop: '10%'}}>
+                <h2 className="font-weight-bold mb-3">Sweeter and smoother</h2>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
               <MDBCol size="2">
                 <MDBIcon icon="bolt" size="2x" className="deep-purple-text" />
               </MDBCol>
-              <MDBCol size="10" style={{marginBottom: '20%'}}>
-                <h3 className="font-weight-bold mb-3">Freshly roasted beans</h3>
+              <MDBCol size="10" style={{marginBottom: '15%'}}>
+                <h2 className="font-weight-bold mb-3">Freshly roasted beans</h2>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
@@ -70,7 +70,7 @@ const FeaturesPage = () => {
                 <MDBIcon icon="magic" size="2x" className="deep-purple-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h3 className="font-weight-bold mb-3">Magical taste</h3>
+                <h2 className="font-weight-bold mb-3">Magical taste</h2>
               </MDBCol>
             </MDBRow>
           </MDBCol>

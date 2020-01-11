@@ -1,5 +1,5 @@
 import React from "react";
-import {  MDBRow, MDBCol, MDBCardImage, MDBJumbotron} from "mdbreact";
+import {  MDBRow, MDBCol, MDBCardImage, MDBCard} from "mdbreact";
 import arabica from '../assets/arabica.jpg';
 import robusta from '../assets/robusta.jpg';
 import mix from '../assets/mix.jpg';
@@ -8,7 +8,7 @@ import mix from '../assets/mix.jpg';
 const TeamPage = () => {
   return (
 
-        <MDBJumbotron style={{background: 'white', padding: '5px 40px 10px 40px'}}>
+        <MDBCard style={{background: 'white', padding: '5px 40px 10px 40px'}}>
           <h2 className="h1-responsive font-weight-bold my-5" style={{alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
           Available Picks</h2>
           <MDBRow center>
@@ -44,7 +44,7 @@ const TeamPage = () => {
               <p className="text-uppercase blue-text">Arabica + Robusta</p>
             </MDBCol>
           </MDBRow>
-        </MDBJumbotron>
+        </MDBCard>
 
   );
 }

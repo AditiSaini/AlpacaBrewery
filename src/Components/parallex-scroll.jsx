@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import './parallex-scroll.css';
 import {MDBCard, MDBCardImage} from 'mdbreact';
 import logo from "../assets/alps.jpeg";
-import {AnimatedOnScroll} from "react-animated-css-onscroll";
 import QuoteComponent from "../Components/quote";
 
 const ScrollComponent = () => {
@@ -23,11 +22,9 @@ const ScrollComponent = () => {
     <div className="scrollable">
       <header className="header-background" style={{ backgroundPositionY: offset }}>
         <section className="info-container" style={{   bottom: offset / 100}}>
-            <AnimatedOnScroll animationIn="bounceIn" animationOut="fadeOut">
             <MDBCard style={{ width: "25rem"}}>
               <MDBCardImage className="img-fluid"  src={logo} waves/>
             </MDBCard>
-            </AnimatedOnScroll>
         </section>
       </header>
         <QuoteComponent/>

@@ -1,11 +1,11 @@
 import React from 'react';
-import {MDBJumbotron, MDBContainer, MDBRow, MDBCol} from "mdbreact";
+import {MDBContainer, MDBRow, MDBCol, MDBCard} from "mdbreact";
 
 const PanelPage = () => {
 return (
     <>
       <MDBContainer>
-          <MDBJumbotron>
+          <MDBCard style={{padding: '50px 50px 20px 40px'}}>
               <MDBRow center>
                 <MDBCol style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <h1 style ={{fontSize:'400%'}} class="quoteMe" >Meet Us...</h1>
@@ -20,7 +20,7 @@ return (
                       Think Alpaca!</b></p>
               </MDBCol>
           </MDBRow>
-          </MDBJumbotron>
+          </MDBCard>
       </MDBContainer>
       </>
 );

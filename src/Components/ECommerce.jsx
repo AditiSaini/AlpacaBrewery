@@ -5,7 +5,7 @@ const EcommercePage = () => {
   return (
     <section className="text-center my-5">
       <MDBRow center>
-        <MDBCol lg="3" xs="2" className="mb-lg-0 mb-4">
+        <MDBCol md="3" xs="2" className="mb-lg-0 mb-4">
           <MDBCard className="align-items-center">
             <MDBCardImage
               src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg"
@@ -33,7 +33,7 @@ const EcommercePage = () => {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol lg="3" xs="2" className="mb-lg-0 mb-4">
+        <MDBCol md="3" xs="2" className="mb-lg-0 mb-4">
           <MDBCard className="align-items-center">
             <MDBCardImage
               src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
@@ -58,7 +58,7 @@ const EcommercePage = () => {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol lg="3" xs="2" className="mb-lg-0 mb-4">
+        <MDBCol md="3" xs="2" className="mb-lg-0 mb-4">
           <MDBCard className="align-items-center">
             <MDBCardImage
               src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14.jpg"

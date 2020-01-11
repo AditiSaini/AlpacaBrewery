@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {MDBBtn, MDBBtnGroup, MDBCol, MDBContainer, MDBJumbotron, MDBRow, MDBView} from "mdbreact";
+import {MDBBtn, MDBBtnGroup, MDBCol, MDBContainer, MDBRow} from "mdbreact";
 import styled from "styled-components";
 import ECommerce from '../Components/ECommerce';
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
@@ -20,7 +20,7 @@ class whatWeDo extends Component {
                     <h1 className="quote">Our Deals</h1>
             </Container>
             <MDBRow center>
-            <MDBCol style={{marginTop: '10%'}}>
+            <MDBCol>
                 <AnimatedOnScroll animationIn="bounceIn" animationOut="fadeOut">
             <ECommerce/>
                 </AnimatedOnScroll>
@@ -35,7 +35,7 @@ class whatWeDo extends Component {
             <MDBBtnGroup vertical className='mb-12'>
                 <AnimatedOnScroll animationIn="fadeIn" animationOut="fadeOut">
                     <MDBBtn href="https://forms.gle/nNr8YFyhth8R2igZ7" color="warning" className='waves-button buttonCheck' size='lg' style={{padding: '20px 60px 20px 60px',
-                        fontFamily: 'Open Sans, sans-serif', fontSize: '20px', marginBottom: '70%'}}>
+                        fontFamily: 'Open Sans, sans-serif', fontSize: '20px', marginBottom: '65%'}}>
                         Order Now
                     </MDBBtn>
                 </AnimatedOnScroll>
