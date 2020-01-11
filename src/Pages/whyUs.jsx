@@ -25,9 +25,9 @@ class whyUs extends Component {
         </MDBContainer>
         <Container>
         <MDBRow center>
-            <MDBCol lg='9'>
+            <MDBCol lg='7'>
                 <Container>
-                    <h1 style={{marginBottom: '8%'}} className="quote">Our Trendy Collections...</h1>
+                    <h1 style={{marginBottom: '8%'}} className="quote">Our Trendy Collections</h1>
                 </Container>
                 <Collection/>
                 <MDBRow center>

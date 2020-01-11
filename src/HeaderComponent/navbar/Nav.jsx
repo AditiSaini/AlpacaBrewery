@@ -21,9 +21,9 @@ class FixedNavbarExample extends React.Component {
       const paddingStyle=  {paddingRight: '20px'}
     return(
       <header>
-            <MDBNavbar style={{backgroundColor: '#000000', fontSize: '160%'}} dark expand="md" scrolling fixed="top">
+            <MDBNavbar style={{backgroundColor: '#000000', fontSize: '100%'}} dark expand="md" scrolling fixed="top">
               <MDBNavbarBrand href="/" style={{fontSize: '160%'}}>
-                  <img src={logo} alt="Company Logo" className='mt-2' height="50"/>
+                  <img src={logo} alt="Company Logo" className='mt-2' height="30"/>
               </MDBNavbarBrand>
               <MDBNavbarToggler onClick={ this.onClick } />
               <MDBCollapse isOpen = { this.state.collapse } navbar>

@@ -26,9 +26,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{backgroundColor: '#6f4e37',
+      <div style={{
+                  backgroundColor: '#6f4e37',
                   backgroundImage: "url(https://www.transparenttextures.com/patterns/wood-pattern.png)",
-                  height: '295em'
               }}>
           <Router>
               <div>
