@@ -1,9 +1,9 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
 "mdbreact";
-import p1 from '../assets/pic-1.png';
-import p2 from '../assets/pic-2.png';
-import p3 from '../assets/pic-3.png';
+import p1 from '../assets/pic-1.jpeg';
+import p2 from '../assets/pic-2.jpeg';
+import p3 from '../assets/pic-3.jpeg';
 
 const CarouselPage = () => {
   return (
@@ -39,7 +39,7 @@ const CarouselPage = () => {
           <MDBMask overlay="black-strong" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">A strong glass, for a stronger you!</h3>
+            <h3 className="h3-responsive"></h3>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
@@ -52,7 +52,7 @@ const CarouselPage = () => {
           <MDBMask overlay="black-slight" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">The daily cup</h3>
+            <h3 className="h3-responsive">The daily breakfast set</h3>
           </MDBCarouselCaption>
         </MDBCarouselItem>
       </MDBCarouselInner>

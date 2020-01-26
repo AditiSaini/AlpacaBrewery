@@ -1,5 +1,8 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBBadge } from "mdbreact";
+import p1 from '../assets/alp-1.jpg';
+import p2 from '../assets/alp-2.jpg';
+
 
 const EcommercePage = () => {
   return (
@@ -8,19 +11,16 @@ const EcommercePage = () => {
         <MDBCol md="3" xs="2" className="mb-lg-0 mb-4">
           <MDBCard className="align-items-center">
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg"
+              src={p1}
               top
               alt="sample photo"
               overlay="white-slight"
             />
             <MDBCardBody className="text-center">
-              <a href="#!" className="grey-text">
-                <h5>Shirt</h5>
-              </a>
               <h5>
                 <strong>
-                  <a href="#!" className="dark-grey-text">
-                    Denim shirt{" "}
+                  <a href="https://forms.gle/nNr8YFyhth8R2igZ7" className="dark-grey-text">
+                    1 bottle{" "}
                     <MDBBadge pill color="danger">
                       NEW
                     </MDBBadge>
@@ -28,52 +28,25 @@ const EcommercePage = () => {
                 </strong>
               </h5>
               <h4 className="font-weight-bold blue-text">
-                <strong>120$</strong>
+                <strong>$8</strong>
               </h4>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
+
         <MDBCol md="3" xs="2" className="mb-lg-0 mb-4">
           <MDBCard className="align-items-center">
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
+              src={p2}
               top
               alt="sample photo"
               overlay="white-slight"
             />
             <MDBCardBody className="text-center">
-              <a href="#!" className="grey-text">
-                <h5>Sport wear</h5>
-              </a>
               <h5>
                 <strong>
-                  <a href="#!" className="dark-grey-text">
-                    Sweatshirt
-                  </a>
-                </strong>
-              </h5>
-              <h4 className="font-weight-bold blue-text">
-                <strong>139$</strong>
-              </h4>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol md="3" xs="2" className="mb-lg-0 mb-4">
-          <MDBCard className="align-items-center">
-            <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14.jpg"
-              top
-              alt="sample photo"
-              overlay="white-slight"
-            />
-            <MDBCardBody className="text-center">
-              <a href="#!" className="grey-text">
-                <h5>Sport wear</h5>
-              </a>
-              <h5>
-                <strong>
-                  <a href="#!" className="dark-grey-text">
-                    Grey blouse{" "}
+                  <a href="https://forms.gle/nNr8YFyhth8R2igZ7" className="dark-grey-text">
+                    2 bottles{" "}
                     <MDBBadge pill color="primary">
                       BEST
                     </MDBBadge>
@@ -81,7 +54,7 @@ const EcommercePage = () => {
                 </strong>
               </h5>
               <h4 className="font-weight-bold blue-text">
-                <strong>99$</strong>
+                <strong>$15</strong>
               </h4>
             </MDBCardBody>
           </MDBCard>
